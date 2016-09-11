@@ -134,6 +134,7 @@ public class BookLibraryFragment extends Fragment {
 
         searchView.setQueryHint(getResources().getString(R.string.search_hint));
 
+
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
