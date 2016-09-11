@@ -3,9 +3,7 @@ package com.leodev.booklibrary;
 import android.content.Context;
 import android.preference.PreferenceManager;
 
-/**
- * Created by Leonid on 09.09.2016.
- */
+
 public class QueryPreferences {
     private static final String PREF_SEARCH_QUERY = "searchQuery";
     private static final String PREF_LAST_RESULT_ID = "lastResultId";

@@ -8,7 +8,7 @@ public class Result {
 
     private String kind;
     private Integer totalItems;
-    private List<Item> items = new ArrayList<Item>();
+    private List<Item> items = new ArrayList<>();
 
     /**
      * 

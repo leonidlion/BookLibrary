@@ -8,9 +8,9 @@ import java.util.List;
 public class VolumeInfo {
 
     private String title;
-    private List<String> authors = new ArrayList<String>();
+    private List<String> authors = new ArrayList<>();
     private String publishedDate;
-    private List<IndustryIdentifier> industryIdentifiers = new ArrayList<IndustryIdentifier>();
+    private List<IndustryIdentifier> industryIdentifiers = new ArrayList<>();
     private ReadingModes readingModes;
     private Integer pageCount;
     private String printType;
