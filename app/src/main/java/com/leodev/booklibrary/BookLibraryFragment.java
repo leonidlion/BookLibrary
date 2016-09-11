@@ -31,9 +31,7 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Leonid on 08.09.2016.
- */
+
 public class BookLibraryFragment extends Fragment {
     private static final String TAG = "BookLibraryFragment";
     private static final int LAYOUT = R.layout.activity_book_library;
@@ -133,6 +131,8 @@ public class BookLibraryFragment extends Fragment {
 
         MenuItem searchItem = menu.findItem(R.id.menu_item_search);
         final SearchView searchView = (SearchView) searchItem.getActionView();
+
+        searchView.setQueryHint(getResources().getString(R.string.search_hint));
 
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
